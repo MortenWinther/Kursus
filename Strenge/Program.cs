@@ -23,9 +23,10 @@ namespace Strenge
             Console.WriteLine(del);
 
             string[] ar = samletNavn.Split(' ');
-            for (int i = 0; i < ar.Length; i++ ) ;
+            for (int i = 0; i < ar.Length; i++ )
             Console.WriteLine(ar[i]);
 
+            System.IO.File.WriteAllText("c:\\temp\\testarray.txt", samletNavn);
 
             if (System.Diagnostics.Debugger.IsAttached)
             {
