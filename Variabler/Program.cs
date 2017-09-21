@@ -55,12 +55,13 @@ namespace Variabler
         }
     }
 
-    public Struct Person
+    public struct Person
     {
     public int id;
     public string navn;
+    }
 }
 public enum FilTyper {csv,pdf,txt}
   
-}
+
 

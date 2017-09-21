@@ -18,9 +18,9 @@ namespace M4Array
                 sum += månedsløn[i];
                 double gns = sum / månedsløn.Length;
 
-                for int i=0;i<månedsløn.Length;i++)
+                for (int j=0;j<månedsløn.Length;j++)
                 {
-                    Console.WriteLine(månedsløn[i]); 
+                    Console.WriteLine(månedsløn[j]); 
                 }
 
                 //Console.WriteLine("Gennemsnit "+gns.ToString("N2"));
